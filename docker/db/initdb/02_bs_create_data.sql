@@ -1,7 +1,8 @@
-Insert into bookshop.EVENTS (ID, DESCRIPTION, PUBLISHED, TITLE) values (1, 'Tut#1 Description', '0', 'Spring Boot Tut#1');
-Insert into bookshop.EVENTS (ID, DESCRIPTION, PUBLISHED, TITLE) values (2, 'Tut#2 Description', '0', 'MySQL Database Tut#2');
-Insert into bookshop.EVENTS (ID, DESCRIPTION, PUBLISHED, TITLE) values (3, 'Tut#3 Description', '0', 'Spring Hibernate MySQL Tut#3');
-Insert into bookshop.EVENTS (ID, DESCRIPTION, PUBLISHED, TITLE) values (4, 'Tut#4 Description', '0', 'Spring Data JPA Tut#4');
-Insert into bookshop.EVENTS (ID, DESCRIPTION, PUBLISHED, TITLE) values (5, 'Tut#5 Description', '0', 'MySQL Advanced Tut#5');
+USE shop;
+
+SET CHARACTER_SET_CLIENT = utf8mb4;
+SET CHARACTER_SET_CONNECTION = utf8mb4;
+
+insert into customers (name) values ('山田 太郎');
 
 COMMIT;
